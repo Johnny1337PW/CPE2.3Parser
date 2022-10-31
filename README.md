@@ -6,6 +6,7 @@ Parser CPE 2.3 napisany jako rozwiązanie zadania rekrutacyjnego do firmy NASK.
 UWAGA: Znak specjalny backslash w Pythonie aby był widoczny musi zostać zdublowany, stąd w wynikach widzimy podwojone znaki "\".
 W ostatnim wierszu po uruchomieniu skryptu wyświetlany jest string z poprawionymi podwojonymi backslashami. Ponadto w pliku tekstowym również zapisywany jest format poprawiony.
 
+UŻYCIE: python parse.py "stringCpe"
 
 Komendy testowe z dokumentacji CPE 2.3:
 
@@ -22,7 +23,8 @@ python parse.py "cpe:2.3:a:hp:insight_diagnostics:7.4.*.1570:*:*:*:*:*:*"
 python parse.py "cpe:2.3:a:foo\\bar:big\$money:2010:*:*:*:special:ipod_touch:80gb:*"
 
 
-##
+#########
+
 Skrypt napisany przy pomocy dokumentacji: https://csrc.nist.gov/publications/detail/nistir/7695/final
 
 Jan Adamski 2022

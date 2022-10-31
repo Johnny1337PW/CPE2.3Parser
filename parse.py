@@ -7,14 +7,15 @@ part = ["h","o","a"]
 logical = ["*","-"]
 
 def check_cpe(string,array):
-    if (len(array)!= 13):
+    if (array[0] != "cpe" or array[1] != "2.3"):
+        raise ValueError('To nie jest ciąg CPE 2.3')
+    elif (len(array)!= 13):
         raise ValueError('Niepoprawny ciąg CPE 2.3')
     elif (string[0]==":") or (string[-1]==":"):
         raise ValueError('Niepoprawny ciąg CPE 2.3')
     elif (array[2] not in part and array[2] not in logical):
         raise ValueError('Niepoprawny ciąg CPE 2.3')
-    elif (array[0] != "cpe" or array[1] != "2.3"):
-        raise ValueError('To nie jest ciąg CPE 2.3')
+    
 
 def correct_dividing(cpe_array):
     final_list = []

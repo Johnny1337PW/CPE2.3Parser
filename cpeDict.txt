@@ -1,0 +1,13 @@
+{
+'part': 'a',
+'vendor': 'foo\bar',
+'product': 'big\$money',
+'version': '2010',
+'update': 'ANY',
+'edition': 'ANY',
+'language': 'ANY',
+'sw_edition': 'special',
+'target_sw': 'ipod_touch',
+'target_hw': '80gb',
+'other': 'ANY'
+}
