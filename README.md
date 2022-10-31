@@ -1,6 +1,6 @@
 # CPE 2.3Parser
 
-Parser CPE 2.3 napisany jako rozwiązanie zadania rekrutacyjnego do firmy NASK.
+Parser CPE 2.3 napisany jako rozwiązanie zadania rekrutacyjnego do firmy NASK. Skrypt pisany i testowany w Pythonie 3.9.6.
 
 
 UWAGA: Znak specjalny backslash w Pythonie aby był widoczny musi zostać zdublowany, stąd w wynikach widzimy podwojone znaki "\".
